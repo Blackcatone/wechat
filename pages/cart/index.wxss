@@ -1,0 +1,10 @@
+.revice_address_row .user_info_row {
+  display: flex;
+}
+.revice_address_row .user_info_row .user_info {
+  flex: 5;
+}
+.revice_address_row .user_info_row .user_phone {
+  flex: 3;
+  text-align: right;
+}

@@ -1,14 +1,57 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
+    "pages": [ 
+      "pages/index/index",
+      "pages/category/index",
+      "pages/goods_list/index",
+      "pages/goos_detail/index",
+      "pages/cart/index",
+      "pages/collect/index",
+      "pages/order/index",
+      "pages/search/index",
+      "pages/user/index",
+      "pages/feedback/index",
+      "pages/login/index",
+      "pages/auth/index",
+      "pages/pay/index"
+
+      ],
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#ea986c",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "static/icon/icon_p5hcooh36s/home.png",
+            "selectedIconPath": "static/icon/icon_zg2celyjin9/home.png",
+            "text": "首页"
+        }, {
+            "pagePath": "pages/category/index",
+            "iconPath": "static/icon/icon_p5hcooh36s/pxc.png",
+            "selectedIconPath": "static/icon/icon_zg2celyjin9/pic.png",
+            "text": "分类"
+        },
+      {
+          "pagePath": "pages/cart/index",
+          "iconPath": "static/icon/icon_p5hcooh36s/add-cart.png",
+          "selectedIconPath": "static/icon/icon_zg2celyjin9/add-cart.png",
+          "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/icon/icon_p5hcooh36s/user.png",
+        "selectedIconPath": "static/icon/icon_zg2celyjin9/user.png",
+        "text": "用户"
+    }]
+    },
+    
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "琪琪商城",
     "navigationBarTextStyle":"black"
+
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
+
+
